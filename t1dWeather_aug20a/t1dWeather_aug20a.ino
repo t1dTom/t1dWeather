@@ -1,4 +1,3 @@
-#include "arduino_secrets.h"
 // t1dWeather
 // Author:      Tom Crites
 // Version:     1.0.0
