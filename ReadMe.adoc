@@ -1,0 +1,50 @@
+:Author: t1dtom
+:Email:
+:Date: 22/08/2025
+:Revision: 1.0.0
+:License: Public Domain
+
+Home weather station using an Arduino R4 Wifi, (BME280) Temperature/Humidity/Pressure Sensor, (DS1302) Real Time Clock, and (GC9A01) 1.28 Round TFT Display.
+
+Required Libraries:
+
+(BME280) Adafruit_BME280_Library
+(DS1302) Rtc by Makuna
+(GC9A01) DIYables TFT Round
+
+Sensor Wiring:
+
+(BME280) 
+
+  VIN  5V or 3.3V Depending if you have 5v or 3.3V sensor
+  GND  Ground
+  SCL  A5
+  SDA  A4
+
+(DS1302)
+
+  VCC  5V or 3.3V
+  GND  Ground
+  CLK  D5
+  DAT  D4
+  RST  D2
+
+(GC9A01)
+
+  VCC  5V
+  GND  Ground
+  SCL  D13
+  SDA  D11 
+  DC   D9
+  CS   D10
+  RST  D8 
+
+Fusion 360 
+
+  t1dWeatherBox.f3d
+
+  This design was downloaded from printables.com (Rugged Box (Parametric)) and modified.
+
+  https://www.printables.com/model/258431-rugged-box-parametric 
+
+
